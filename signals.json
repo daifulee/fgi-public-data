@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-11-04T03:14:39.082311+00:00",
+ "run_utc": "2026-11-04T03:25:34.574417+00:00",
  "data_date": "2026-11-03",
  "engine": "fgi_engine_v3.py",
  "tickers": {
@@ -9,6 +9,7 @@
    "close": 518.52,
    "ma": 520.65,
    "vs_ma_pct": -0.0041,
+   "late": null,
    "trend_up": false,
    "armed": true,
    "zone": "🟡 보유 유지 — 게이트는 열렸으나(추세 아래) 심리 공포·중립 · 매도선까지 +48.9",
@@ -38,6 +39,7 @@
    "close": 685.28,
    "ma": 679.01,
    "vs_ma_pct": 0.0092,
+   "late": null,
    "trend_up": true,
    "armed": true,
    "zone": "🔒 매도 불가 — 추세 위: 탐욕이 와도 보유",
@@ -67,6 +69,7 @@
    "close": 754.35,
    "ma": 726.65,
    "vs_ma_pct": 0.0381,
+   "late": null,
    "trend_up": true,
    "armed": true,
    "zone": "🔒 매도 불가 — 추세 위: 탐욕이 와도 보유",
@@ -96,6 +99,7 @@
    "close": 31.73,
    "ma": 37.01,
    "vs_ma_pct": -0.1426,
+   "late": null,
    "trend_up": false,
    "armed": true,
    "zone": "🟡 보유 유지 — 게이트는 열렸으나(추세 아래) 심리 공포·중립 · 매도선까지 +48.9",
