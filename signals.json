@@ -1,10 +1,12 @@
 {
- "run_utc": "2026-11-04T03:30:16.635238+00:00",
+ "run_utc": "2026-11-04T09:10:56.916388+00:00",
  "data_date": "2026-11-03",
  "engine": "fgi_engine_v3.py",
  "tickers": {
   "SMH": {
    "holding": "SMH",
+   "real_holding": null,
+   "divergence": null,
    "fgi": 19.09,
    "close": 518.52,
    "ma": 520.65,
@@ -17,7 +19,7 @@
    "zone": "🟡 보유 유지 — 게이트는 열렸으나(추세 아래) 심리 공포·중립 · 매도선까지 +48.9",
    "pending": null,
    "imminence": "매도선 68까지 +48.9 (추세 아래 → 유효)",
-   "equity": 370321.15,
+   "equity": 370321.52,
    "cagr": 0.2562,
    "mdd": -0.3809,
    "bh_cagr": 0.2568,
@@ -29,14 +31,16 @@
     "sold": "SGOV",
     "bought": "SMH",
     "reason": "fear",
-    "gross": 86368.01785402192,
-    "fees": 172.64966769018793,
-    "net": 86195.36818633173
+    "gross": 86368.10349407868,
+    "fees": 172.64983888466668,
+    "net": 86195.45365519401
    },
    "rule": "24/68·MA200"
   },
   "QQQ": {
    "holding": "QQQ",
+   "real_holding": null,
+   "divergence": null,
    "fgi": 19.09,
    "close": 685.28,
    "ma": 679.01,
@@ -49,7 +53,7 @@
    "zone": "🔒 매도 불가 — 추세 위: 탐욕이 와도 보유",
    "pending": null,
    "imminence": "매도선 68까지 +48.9 (추세 위 → 매도 무효)",
-   "equity": 134597.78,
+   "equity": 134597.83,
    "cagr": 0.1784,
    "mdd": -0.3265,
    "bh_cagr": 0.1821,
@@ -61,14 +65,16 @@
     "sold": "SGOV",
     "bought": "QQQ",
     "reason": "fear",
-    "gross": 57292.651044410624,
-    "fees": 114.52800943777402,
-    "net": 57178.12303497285
+    "gross": 57292.66007726482,
+    "fees": 114.52802749445254,
+    "net": 57178.13204977037
    },
    "rule": "24/68·MA200"
   },
   "SPY": {
    "holding": "SPY",
+   "real_holding": null,
+   "divergence": null,
    "fgi": 19.09,
    "close": 754.35,
    "ma": 726.65,
@@ -81,7 +87,7 @@
    "zone": "🔒 매도 불가 — 추세 위: 탐욕이 와도 보유",
    "pending": null,
    "imminence": "매도선 68까지 +48.9 (추세 위 → 매도 무효)",
-   "equity": 80412.82,
+   "equity": 80412.77,
    "cagr": 0.1406,
    "mdd": -0.3372,
    "bh_cagr": 0.1386,
@@ -93,14 +99,16 @@
     "sold": "SGOV",
     "bought": "SPY",
     "reason": "fear",
-    "gross": 36945.97145094373,
-    "fees": 73.85499693043676,
-    "net": 36872.116454013296
+    "gross": 36945.95478040716,
+    "fees": 73.85496360603429,
+    "net": 36872.09981680113
    },
    "rule": "24/68·MA200"
   },
   "EWZ": {
    "holding": "EWZ",
+   "real_holding": null,
+   "divergence": null,
    "fgi": 19.09,
    "close": 31.73,
    "ma": 37.01,
@@ -113,7 +121,7 @@
    "zone": "🟡 보유 유지 — 게이트는 열렸으나(추세 아래) 심리 공포·중립 · 매도선까지 +48.9",
    "pending": null,
    "imminence": "매도선 68까지 +48.9 (추세 아래 → 유효) · 손절선 18.44 (현재 +46.3%)",
-   "equity": 40042.04,
+   "equity": 40042.03,
    "cagr": 0.0915,
    "mdd": -0.3664,
    "bh_cagr": -0.0147,
@@ -125,12 +133,16 @@
     "sold": "SGOV",
     "bought": "EWZ",
     "reason": "fear",
-    "gross": 27431.216987392636,
-    "fees": 54.835002757798065,
-    "net": 27376.381984634838
+    "gross": 27431.21260844713,
+    "fees": 54.83499400428627,
+    "net": 27376.377614442845
    },
    "rule": "24/68·MA200·SL15%"
   }
  },
- "actions": []
+ "actions": [],
+ "data_fresh": true,
+ "holdings_grounded": false,
+ "real_as_of": null,
+ "divergence": []
 }
