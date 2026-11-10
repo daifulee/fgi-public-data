@@ -1,0 +1,15 @@
+{
+ "fetched_utc": "2026-11-10T01:47:11Z",
+ "cnn_timestamp": "2026-11-09T23:59:52Z",
+ "score": 31.7142857142857,
+ "rating": "fear",
+ "previous_close": 22.0792756539235,
+ "previous_1_week": 19.391718426501,
+ "previous_1_month": 43.51428571428572,
+ "previous_1_year": 20.428571428571427,
+ "window_last_point": {
+  "cnn_timestamp_utc": "2026-11-09T23:59:52Z",
+  "FGI": 31.7143
+ },
+ "note": "score 는 CNN 장중 잠정값일 수 있음. 레인 신호는 입력 CSV 의 완결 세션 값만 사용. 모의 관찰 전용 · 신호 ≠ 자본"
+}
