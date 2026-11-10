@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-11-10T00:27:20.355675+00:00",
+ "run_utc": "2026-11-10T06:17:47.496802+00:00",
  "data_date": "2026-11-09",
  "engine": "fgi_engine_v3.py",
  "tickers": {
@@ -179,7 +179,20 @@
  "holdings_grounded": false,
  "real_as_of": null,
  "divergence": [],
- "changes": [
-  "PDBC 구간: ? → 🔒 매도 불가"
- ]
+ "allocation_layer": {
+  "rule": "원자재(PDBC) 종가 vs 200일선: 위 → 5레인 동일비중 / 아래 → SMH 집중",
+  "regime": "원자재 추세 위 (인플레 레짐)",
+  "pdbc_close": 18.47,
+  "pdbc_ma": 17.58,
+  "vs_ma_pct": 0.0508,
+  "weights": {
+   "SMH": 0.2,
+   "QQQ": 0.2,
+   "SPY": 0.2,
+   "EWZ": 0.2,
+   "PDBC": 0.2
+  },
+  "status": "관찰용 (SSOT #21, 2026-11-10) · 자본 미반영 · 인플레 사이클 1회 의존 · 신호 ≠ 자본"
+ },
+ "changes": []
 }
