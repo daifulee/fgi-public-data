@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-11-10T07:58:25.005558+00:00",
+ "run_utc": "2026-11-10T08:22:06.664473+00:00",
  "data_date": "2026-11-09",
  "engine": "fgi_engine_v3.py",
  "tickers": {
@@ -179,6 +179,30 @@
  "holdings_grounded": false,
  "real_as_of": null,
  "divergence": [],
+ "order": {
+  "job_id": "2026-11-09@91ff301029cb",
+  "run_id": "gh-42782034830-1",
+  "attempts": [
+   "gh-42782034830-1"
+  ],
+  "started_utc": "2026-11-10T08:22:05Z",
+  "input": "MULTI_FGI_2011_2026_input.csv",
+  "input_sha256": "91ff301029cb9a46310f0bd20cee7afc8d23062d88590a12092e8d2cf64f6420",
+  "registry_sha256": "1da7c45a805b9cdc0dae25f54591e8e39b73787400f1263bbc009448f9e8a082",
+  "engine_sha256": "3a6865befa560aeef022cf8b0873d8550f19b72bcc9610df9a3a83ed46030dcb",
+  "code": {
+   "fgi_daily_fetch.py": "14b2e3ef2140",
+   "fgi_history_export.py": "3f99973a5f6b",
+   "fgi_daily_run.py": "d4e546be6a59",
+   "fgi_validate.py": "0eb43d93ca11",
+   "fgi_engine_v3.py": "3a6865befa56",
+   "fgi_brief_html.py": "9864dc98c724",
+   "fgi_publish_public.py": "caa23259e106",
+   "fgi_status.py": "974487f74d20",
+   "fgi_lane.py": "d3af75260d85"
+  },
+  "data_date": "2026-11-09"
+ },
  "allocation_layer": {
   "method": "위험균등(ERC) · Ledoit-Wolf 수축 공분산 · 252거래일 · 월말 기준",
   "as_of": "2026-10-30",
