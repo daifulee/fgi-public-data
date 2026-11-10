@@ -1,9 +1,10 @@
 {
  "order": {
   "job_id": "2026-11-09@91ff301029cb",
-  "run_id": "gh-42782034830-1",
+  "run_id": "gh-42787041237-1",
   "attempts": [
-   "gh-42782034830-1"
+   "gh-42782034830-1",
+   "gh-42787041237-1"
   ],
   "started_utc": "2026-11-10T08:22:05Z",
   "input": "MULTI_FGI_2011_2026_input.csv",
@@ -13,13 +14,14 @@
   "code": {
    "fgi_daily_fetch.py": "14b2e3ef2140",
    "fgi_history_export.py": "3f99973a5f6b",
-   "fgi_daily_run.py": "d4e546be6a59",
+   "fgi_daily_run.py": "24920f8805ab",
    "fgi_validate.py": "0eb43d93ca11",
    "fgi_engine_v3.py": "3a6865befa56",
    "fgi_brief_html.py": "9864dc98c724",
    "fgi_publish_public.py": "caa23259e106",
-   "fgi_status.py": "974487f74d20",
-   "fgi_lane.py": "d3af75260d85"
+   "fgi_status.py": "bb0ceafb148d",
+   "fgi_lane.py": "d3d0fe80440b",
+   "fgi_alert.py": "17018b4ece36"
   },
   "data_date": "2026-11-09"
  },
@@ -27,18 +29,25 @@
   "수집": {
    "status": "성공",
    "reason": "완결 세션·R1~R3·소거 금지 통과",
-   "at_utc": "2026-11-10T08:22:05Z",
-   "resumed": false
+   "at_utc": "2026-11-10T09:00:33Z",
+   "resumed": false,
+   "sec": 2.01,
+   "secrets": []
   },
   "시계열": {
    "status": "성공",
    "reason": "",
-   "at_utc": "2026-11-10T08:22:06Z"
+   "at_utc": "2026-11-10T09:00:34Z",
+   "sec": 0.49,
+   "secrets": []
   },
   "실행": {
    "status": "성공",
    "reason": "자료 2026-11-09 · 종목 5 · 변동 0건 · Discord 는 결과 검증 후 별도 단계",
-   "at_utc": "2026-11-10T08:22:07Z"
+   "at_utc": "2026-11-10T08:22:07Z",
+   "resumed_by": "gh-42787041237-1",
+   "sec": 0.07,
+   "secrets": []
   },
   "결과검증": {
    "status": "성공",
@@ -46,7 +55,9 @@
    "at_utc": "2026-11-10T08:22:08Z",
    "checks": 13,
    "failed": 0,
-   "warnings": []
+   "warnings": [],
+   "sec": 0.04,
+   "secrets": []
   },
   "알림": {
    "status": "생략",
@@ -56,7 +67,28 @@
   "렌더": {
    "status": "성공",
    "reason": "",
-   "at_utc": "2026-11-10T08:22:11Z"
+   "at_utc": "2026-11-10T09:00:36Z",
+   "sec": 0.14,
+   "secrets": []
+  },
+  "발행": {
+   "status": "성공",
+   "reason": "",
+   "at_utc": "2026-11-10T08:22:18Z"
+  },
+  "입력검증": {
+   "status": "성공",
+   "reason": "입력 최종일 2026-11-09 (1일 경과, 한도 4일)",
+   "at_utc": "2026-11-10T09:00:33Z",
+   "sec": 0.0,
+   "secrets": []
+  },
+  "확정": {
+   "status": "성공",
+   "reason": "main 에 검증본 저장",
+   "at_utc": "2026-11-10T09:00:37Z",
+   "sec": 1.0,
+   "secrets": []
   }
  },
  "overall": {
@@ -66,6 +98,6 @@
   "reason": "",
   "resume_from": "없음 (완료)",
   "resume_note": "같은 작업(job_id)으로 재시도하면 lane-checkpoint 브랜치의 세이브 포인트를 읽어 이미 성공한 단계는 건너뛴다",
-  "at_utc": "2026-11-10T08:22:11Z"
+  "at_utc": "2026-11-10T09:00:36Z"
  }
 }
