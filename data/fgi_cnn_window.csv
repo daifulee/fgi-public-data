@@ -1,5 +1,4 @@
 cnn_timestamp_utc,FGI,rating
-2025-10-14T00:00:00Z,28.2857,fear
 2025-10-15T00:00:00Z,27.4143,fear
 2025-10-16T00:00:00Z,23.1143,extreme fear
 2025-10-17T00:00:00Z,22.3286,extreme fear
@@ -275,4 +274,4 @@ cnn_timestamp_utc,FGI,rating
 2026-11-16T00:00:00Z,31.0673,fear
 2026-11-17T00:00:00Z,25.9506,fear
 2026-11-18T00:00:00Z,24.6077,extreme fear
-2026-11-18T21:38:28Z,24.6077,extreme fear
+2026-11-18T23:59:50Z,24.6077,extreme fear
