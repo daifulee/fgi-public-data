@@ -1,15 +1,15 @@
 {
- "fetched_utc": "2026-11-25T09:29:15Z",
- "cnn_timestamp": "2026-11-25T09:13:46Z",
- "score": 15.8589511754069,
+ "fetched_utc": "2026-11-25T23:05:54Z",
+ "cnn_timestamp": "2026-11-25T22:33:08Z",
+ "score": 15.2253164556962,
  "rating": "extreme fear",
  "previous_close": 17.4212454212454,
  "previous_1_week": 29.8857142857143,
  "previous_1_month": 16.685714285714287,
  "previous_1_year": 15.028571428571428,
  "window_last_point": {
-  "cnn_timestamp_utc": "2026-11-25T09:13:46Z",
-  "FGI": 15.859
+  "cnn_timestamp_utc": "2026-11-25T22:33:08Z",
+  "FGI": 15.2253
  },
  "note": "score 는 CNN 장중 잠정값일 수 있음. 레인 신호는 입력 CSV 의 완결 세션 값만 사용. 모의 관찰 전용 · 신호 ≠ 자본"
 }
