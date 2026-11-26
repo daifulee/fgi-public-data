@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-11-26T09:07:41.592925+00:00",
+ "run_utc": "2026-11-26T09:24:05.246196+00:00",
  "data_date": "2026-11-25",
  "engine": "fgi_engine_v3.py",
  "tickers": {
@@ -181,11 +181,11 @@
  "divergence": [],
  "order": {
   "job_id": "2026-11-25@4e12eadf466b",
-  "run_id": "gh-45789036538-1",
+  "run_id": "gh-45791561001-1",
   "attempts": [
-   "gh-45789036538-1"
+   "gh-45791561001-1"
   ],
-  "started_utc": "2026-11-26T09:07:40Z",
+  "started_utc": "2026-11-26T09:24:04Z",
   "input": "MULTI_FGI_2011_2026_input.csv",
   "input_sha256": "4e12eadf466ba3f8a95679ee2a4c3ce2c48dfc3585b3e815bcdb3871bd188d16",
   "registry_sha256": "1da7c45a805b9cdc0dae25f54591e8e39b73787400f1263bbc009448f9e8a082",
@@ -193,16 +193,22 @@
   "code": {
    "fgi_daily_fetch.py": "14b2e3ef2140",
    "fgi_history_export.py": "3f99973a5f6b",
-   "fgi_daily_run.py": "653ccd32cef9",
+   "fgi_daily_run.py": "052beddb483f",
    "fgi_validate.py": "0eb43d93ca11",
    "fgi_engine_v3.py": "3a6865befa56",
-   "fgi_brief_html.py": "f384965b813b",
+   "fgi_brief_html.py": "164c60271e73",
    "fgi_publish_public.py": "caa23259e106",
-   "fgi_status.py": "bb0ceafb148d",
-   "fgi_lane.py": "d3d0fe80440b",
-   "fgi_alert.py": "17018b4ece36"
+   "fgi_status.py": "651c36344586",
+   "fgi_lane.py": "691f29a54c74",
+   "fgi_alert.py": "17018b4ece36",
+   "fgi_crisis_board.py": "e1bf8553e98f",
+   "fgi_crisis_shadow.py": "f217f030c8fa",
+   "fgi_gld_macro.py": "a1c0a0386f25",
+   "CRISIS_BOARD_CONFIG.json": "079148ac5ff6",
+   "GLD_MACRO_CONFIG.json": "a5498166434f"
   },
-  "data_date": "2026-11-25"
+  "data_date": "2026-11-25",
+  "restart_reason": "코드 변경: CRISIS_BOARD_CONFIG.json, GLD_MACRO_CONFIG.json, fgi_brief_html.py, fgi_crisis_board.py, fgi_crisis_shadow.py, fgi_daily_run.py"
  },
  "allocation_layer": {
   "method": "위험균등(ERC) · Ledoit-Wolf 수축 공분산 · 252거래일 · 월말 기준",
@@ -448,6 +454,108 @@
   "evidence": "과거 사건별 차이(검정, 지수 기준·대기 0%, SPY/QQQ/SMH 로그 %p, 전량 청산 가정): 2000~2003 +18.6/+41.5/+42.1 · 2008~2009 +38.0/+33.6/+38.6 · 2011~2012 −3.4/+2.1/−3.3 · 2022~2023 −21.4/−18.8/−32.1. EWZ(손절 포함, 단계형): 2008~2009 +64.5 · 2022~2023 −2.6",
   "limits": "관찰 시작일 이전은 계산하지 않음 · 한도 1 미만 구간의 새 매수 체결 비용 차이는 미반영 · 사건이 드물어(과거 3~9년에 1회) 판정까지 여러 해가 걸릴 수 있음",
   "status": "관찰용 (모의 · 자본 미반영) — 판정은 표시이며 규칙·자본 변경은 Commander 결정"
+ },
+ "gld_macro": {
+  "version": "v1.0",
+  "ticker": "GLD",
+  "basis_date": "2026-11-25",
+  "history_last": "2026-11-25",
+  "as_of": "2026-11-25",
+  "stale": false,
+  "stale_days": 0,
+  "position": "보유",
+  "holding": true,
+  "action": "보유 유지",
+  "action_key": "hold",
+  "score": 2.6,
+  "entry_threshold": 1.5,
+  "score_parts": {
+   "tnx41": 1.5,
+   "dxy101": 2.6,
+   "tyx471": 1.5,
+   "gsr_z": -3.0
+  },
+  "entry_ok": true,
+  "inputs": {
+   "GLD": 327.45,
+   "TNX": 4.848,
+   "DFII10": 2.79,
+   "DXY": 103.796,
+   "WTI": 84.43,
+   "OAS_IG": 0.98,
+   "TYX_30Y": 5.235,
+   "GSR_Z": 2.415
+  },
+  "real_rate_led": true,
+  "entry_date": "2026-11-18",
+  "entry_price": 341.19,
+  "held_days": 6,
+  "hold_target": 63,
+  "pnl": -0.0403,
+  "stop_price": 290.01,
+  "to_stop": -0.1143,
+  "wti_exit": 90,
+  "wti_gap": 5.57,
+  "days_to_target": 57,
+  "trades_recent": [
+   {
+    "date": "2026-10-01",
+    "side": "매도",
+    "price": 382.76,
+    "reason": "유가 > 90",
+    "ret": 0.005,
+    "entry_date": "2026-09-30"
+   },
+   {
+    "date": "2026-10-06",
+    "side": "매수",
+    "price": 382.27,
+    "reason": "점수 +4.1"
+   },
+   {
+    "date": "2026-10-07",
+    "side": "매도",
+    "price": 375.88,
+    "reason": "유가 > 90",
+    "ret": -0.0167,
+    "entry_date": "2026-10-06"
+   },
+   {
+    "date": "2026-10-08",
+    "side": "매수",
+    "price": 378.62,
+    "reason": "점수 +4.1"
+   },
+   {
+    "date": "2026-10-09",
+    "side": "매도",
+    "price": 384.58,
+    "reason": "유가 > 90",
+    "ret": 0.0157,
+    "entry_date": "2026-10-08"
+   },
+   {
+    "date": "2026-11-18",
+    "side": "매수",
+    "price": 341.19,
+    "reason": "점수 +2.6"
+   }
+  ],
+  "n_buys": 37,
+  "backtest": {
+   "start": "2007-01-03",
+   "end": "2026-11-25",
+   "lane_cagr": 0.0801,
+   "lane_mdd": -0.2207,
+   "hold_cagr": 0.087,
+   "hold_mdd": -0.4556,
+   "exposure": 0.3074
+  },
+  "live": null,
+  "source": "ARGUS PRIMA2_v0_5_45_CROWN110_CAUSAL_GUARD.py — entry_GLD · HOLD_DAYS[GLD]=63 (Crown #94) · EXSN_WTI[GLD]=90 · 실질금리 감등 (Crown #93) · 금은비 감점 (Crown #89). 2026-11-26 이식",
+  "evidence": "2026-11-26 단독 이식 검정(원출처 자료, 2007-01-03~2026-11-25, 편도 0.10%·대기 0%): 레인 연복리 8.01% · 낙폭 −22.1% vs GLD 보유 8.70% · −45.6% (수익 −0.69%p, 낙폭 23.5%p 개선, 보유 비율 31%, 매수 37회). 2007~2016 5.08% vs 5.82% · 2017~ 10.97% vs 11.61% · 2026년 +3.3% vs −17.4% · 임계값을 맞춘 자료 밖(2026-05-23~11-25) −2.6% vs −20.9%. 사전 기준 중 '연복리가 보유 이상'은 미달(−0.69%p) — 수익을 더하는 신호가 아니라 낙폭을 줄이는 신호로 본다",
+  "limits": "임계값은 ARGUS 가 같은 구간 자료로 포트폴리오 안에서 맞춘 값(2007~2026-05 는 표본 내) · 단순 이식(셧다운 게이트 근사, 슬롯 경쟁·126세션 체결 주기·편도 5% 비용 미이식)이라 ARGUS 실제 성과와 다름 · 대기 수익 0% · 자료는 ARGUS 공개 자료에 의존(끊기면 지연 표시)",
+  "status": "관찰용 (모의 · 자본 미반영) — 레인 신호·원장·배분 레이어·위기 상태판과 분리"
  },
  "changes": []
 }
