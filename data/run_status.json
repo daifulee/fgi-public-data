@@ -1,11 +1,11 @@
 {
  "order": {
   "job_id": "2026-11-25@4e12eadf466b",
-  "run_id": "gh-45842638162-1",
+  "run_id": "gh-45973309672-1",
   "attempts": [
-   "gh-45842638162-1"
+   "gh-45973309672-1"
   ],
-  "started_utc": "2026-11-26T14:48:27Z",
+  "started_utc": "2026-11-27T09:23:49Z",
   "input": "MULTI_FGI_2011_2026_input.csv",
   "input_sha256": "4e12eadf466ba3f8a95679ee2a4c3ce2c48dfc3585b3e815bcdb3871bd188d16",
   "registry_sha256": "1da7c45a805b9cdc0dae25f54591e8e39b73787400f1263bbc009448f9e8a082",
@@ -13,59 +13,60 @@
   "code": {
    "fgi_daily_fetch.py": "14b2e3ef2140",
    "fgi_history_export.py": "3f99973a5f6b",
-   "fgi_daily_run.py": "4fb8e60ca721",
+   "fgi_daily_run.py": "23e18d168aa8",
    "fgi_validate.py": "0eb43d93ca11",
    "fgi_engine_v3.py": "3a6865befa56",
-   "fgi_brief_html.py": "cf588509daf3",
+   "fgi_brief_html.py": "15922c083bf9",
    "fgi_publish_public.py": "caa23259e106",
-   "fgi_status.py": "1582e7c8bd9d",
+   "fgi_status.py": "6d4812c38eb7",
    "fgi_lane.py": "691f29a54c74",
    "fgi_alert.py": "17018b4ece36",
    "fgi_crisis_board.py": "9f45df18f23e",
    "fgi_crisis_shadow.py": "f217f030c8fa",
-   "fgi_gld_macro.py": "69029d20e4cd",
+   "fgi_gld_macro.py": "7558f7e828e8",
    "CRISIS_BOARD_CONFIG.json": "f9616b2e06f1",
-   "GLD_MACRO_CONFIG.json": "a5498166434f",
+   "GLD_MACRO_CONFIG.json": "c6618cf855aa",
    "fgi_watch.py": "c1292789047c",
-   "WATCH_CALENDAR.json": "c97ae150c5b6"
+   "WATCH_CALENDAR.json": "c97ae150c5b6",
+   "ALLOCATION_RECO.json": "ffbf03103e10"
   },
   "data_date": "2026-11-25",
-  "restart_reason": "코드 변경: CRISIS_BOARD_CONFIG.json, WATCH_CALENDAR.json, fgi_brief_html.py, fgi_crisis_board.py, fgi_daily_run.py, fgi_gld_macro.py"
+  "restart_reason": "코드 변경: ALLOCATION_RECO.json, GLD_MACRO_CONFIG.json, fgi_brief_html.py, fgi_daily_run.py, fgi_gld_macro.py, fgi_status.py"
  },
  "stages": {
   "수집": {
    "status": "성공",
    "reason": "완결 세션·R1~R3·소거 금지 통과",
-   "at_utc": "2026-11-26T14:48:27Z",
+   "at_utc": "2026-11-27T09:23:49Z",
    "resumed": false,
-   "sec": 2.05,
+   "sec": 2.77,
    "secrets": []
   },
   "입력검증": {
    "status": "성공",
-   "reason": "입력 최종일 2026-11-25 (1일 경과, 한도 4일)",
-   "at_utc": "2026-11-26T14:48:27Z",
+   "reason": "입력 최종일 2026-11-25 (2일 경과, 한도 4일)",
+   "at_utc": "2026-11-27T09:23:49Z",
    "sec": 0.0,
    "secrets": []
   },
   "시계열": {
    "status": "성공",
    "reason": "",
-   "at_utc": "2026-11-26T14:48:28Z",
-   "sec": 0.48,
+   "at_utc": "2026-11-27T09:23:50Z",
+   "sec": 0.59,
    "secrets": []
   },
   "실행": {
    "status": "성공",
    "reason": "자료 2026-11-25 · 종목 5 · 변동 0건 · Discord 는 결과 검증 후 별도 단계",
-   "at_utc": "2026-11-26T14:48:29Z",
-   "sec": 0.88,
+   "at_utc": "2026-11-27T09:23:51Z",
+   "sec": 0.92,
    "secrets": []
   },
   "결과검증": {
    "status": "성공",
    "reason": "13개 항목 통과",
-   "at_utc": "2026-11-26T14:48:31Z",
+   "at_utc": "2026-11-27T09:23:52Z",
    "checks": 13,
    "failed": 0,
    "warnings": [],
@@ -75,15 +76,15 @@
   "렌더": {
    "status": "성공",
    "reason": "",
-   "at_utc": "2026-11-26T14:48:32Z",
+   "at_utc": "2026-11-27T09:23:54Z",
    "sec": 0.14,
    "secrets": []
   },
   "확정": {
    "status": "성공",
    "reason": "main 에 검증본 저장",
-   "at_utc": "2026-11-26T14:48:34Z",
-   "sec": 1.84,
+   "at_utc": "2026-11-27T09:23:55Z",
+   "sec": 1.25,
    "secrets": []
   }
  },
@@ -94,6 +95,6 @@
   "reason": "",
   "resume_from": "없음 (완료)",
   "resume_note": "같은 작업(job_id)으로 재시도하면 lane-checkpoint 브랜치의 세이브 포인트를 읽어 이미 성공한 단계는 건너뛴다",
-  "at_utc": "2026-11-26T14:48:32Z"
+  "at_utc": "2026-11-27T09:23:53Z"
  }
 }
