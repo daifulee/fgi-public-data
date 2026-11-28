@@ -1,13 +1,13 @@
 {
  "order": {
-  "job_id": "2026-11-25@4e12eadf466b",
-  "run_id": "gh-45973309672-1",
+  "job_id": "2026-11-27@2e32e489ccfe",
+  "run_id": "gh-46126813610-1",
   "attempts": [
-   "gh-45973309672-1"
+   "gh-46126813610-1"
   ],
-  "started_utc": "2026-11-27T09:23:49Z",
+  "started_utc": "2026-11-28T08:39:30Z",
   "input": "MULTI_FGI_2011_2026_input.csv",
-  "input_sha256": "4e12eadf466ba3f8a95679ee2a4c3ce2c48dfc3585b3e815bcdb3871bd188d16",
+  "input_sha256": "2e32e489ccfe9f5a7e15d6de1018f3a1f4c24d7edbb4609278ecf1f49cd658ed",
   "registry_sha256": "1da7c45a805b9cdc0dae25f54591e8e39b73787400f1263bbc009448f9e8a082",
   "engine_sha256": "3a6865befa560aeef022cf8b0873d8550f19b72bcc9610df9a3a83ed46030dcb",
   "code": {
@@ -30,61 +30,60 @@
    "WATCH_CALENDAR.json": "c97ae150c5b6",
    "ALLOCATION_RECO.json": "ffbf03103e10"
   },
-  "data_date": "2026-11-25",
-  "restart_reason": "코드 변경: ALLOCATION_RECO.json, GLD_MACRO_CONFIG.json, fgi_brief_html.py, fgi_daily_run.py, fgi_gld_macro.py, fgi_status.py"
+  "data_date": "2026-11-27"
  },
  "stages": {
   "수집": {
    "status": "성공",
    "reason": "완결 세션·R1~R3·소거 금지 통과",
-   "at_utc": "2026-11-27T09:23:49Z",
+   "at_utc": "2026-11-28T08:39:30Z",
    "resumed": false,
-   "sec": 2.77,
+   "sec": 3.08,
    "secrets": []
   },
   "입력검증": {
    "status": "성공",
-   "reason": "입력 최종일 2026-11-25 (2일 경과, 한도 4일)",
-   "at_utc": "2026-11-27T09:23:49Z",
+   "reason": "입력 최종일 2026-11-27 (1일 경과, 한도 4일)",
+   "at_utc": "2026-11-28T08:39:30Z",
    "sec": 0.0,
    "secrets": []
   },
   "시계열": {
    "status": "성공",
    "reason": "",
-   "at_utc": "2026-11-27T09:23:50Z",
-   "sec": 0.59,
+   "at_utc": "2026-11-28T08:39:31Z",
+   "sec": 0.48,
    "secrets": []
   },
   "실행": {
    "status": "성공",
-   "reason": "자료 2026-11-25 · 종목 5 · 변동 0건 · Discord 는 결과 검증 후 별도 단계",
-   "at_utc": "2026-11-27T09:23:51Z",
-   "sec": 0.92,
+   "reason": "자료 2026-11-27 · 종목 5 · 변동 0건 · Discord 는 결과 검증 후 별도 단계",
+   "at_utc": "2026-11-28T08:39:31Z",
+   "sec": 0.74,
    "secrets": []
   },
   "결과검증": {
    "status": "성공",
    "reason": "13개 항목 통과",
-   "at_utc": "2026-11-27T09:23:52Z",
+   "at_utc": "2026-11-28T08:39:33Z",
    "checks": 13,
    "failed": 0,
    "warnings": [],
-   "sec": 0.27,
+   "sec": 0.2,
    "secrets": []
   },
   "렌더": {
    "status": "성공",
    "reason": "",
-   "at_utc": "2026-11-27T09:23:54Z",
-   "sec": 0.14,
+   "at_utc": "2026-11-28T08:39:34Z",
+   "sec": 0.11,
    "secrets": []
   },
   "확정": {
    "status": "성공",
    "reason": "main 에 검증본 저장",
-   "at_utc": "2026-11-27T09:23:55Z",
-   "sec": 1.25,
+   "at_utc": "2026-11-28T08:39:35Z",
+   "sec": 1.21,
    "secrets": []
   }
  },
@@ -95,6 +94,6 @@
   "reason": "",
   "resume_from": "없음 (완료)",
   "resume_note": "같은 작업(job_id)으로 재시도하면 lane-checkpoint 브랜치의 세이브 포인트를 읽어 이미 성공한 단계는 건너뛴다",
-  "at_utc": "2026-11-27T09:23:53Z"
+  "at_utc": "2026-11-28T08:39:34Z"
  }
 }
